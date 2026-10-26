@@ -39,7 +39,6 @@ src = ["src", "tests"]
 
 [tool.ruff.lint]
 select = ["E", "F", "I", "B", "UP", "SIM", "RUF"]
-ignore = ["RUF001", "RUF002", "RUF003"]  # Cyrillic in docstrings/comments is intended
 
 [tool.mypy]
 python_version = "3.12"
